@@ -8,5 +8,5 @@ function moveFirstSlide(){
   var firstItem = carouselList.find('li:first');
   var lastItem = carouselList.find('li:last');
   lastItem.after(firstItem);
-  lastItem.after(firstItem)
+  carouselList.css({'marginLeft':0});
 }
